@@ -1,5 +1,6 @@
 import { FastifyRequest, FastifyReply } from 'fastify'
 import { viaggiService } from './viaggi.service'
+import { Viaggio, createViaggioSchema } from './viaggi.schema'
 
 export const viaggiController = {
   getAll(
@@ -18,4 +19,18 @@ export const viaggiController = {
     const viaggio = viaggiService.createViaggio(request.body as any)
     reply.code(201).send(viaggio)
   }
+}
+
+// Per ora usiamo un array in memoria (poi DB)
+let viaggi: Viaggio[] = []
+
+export async function getViaggi() {
+  return viaggi
+}
+
+export async function createViaggio(data: Omit<Viaggio, 'id'>) {
+  const id = viaggi.length + 1
+  const nuovoViaggio = { id, ...data }
+  viaggi.push(nuovoViaggio)
+  return nuovoViaggio
 }
