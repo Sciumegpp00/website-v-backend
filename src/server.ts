@@ -15,7 +15,8 @@ app.register(viaggiRoutes, { prefix: '/api/v1' })
 app.register(cors, {
   origin: [
     'http://localhost:5173',
-    'https://website-v-backend.onrender.com'
+    'https://website-v-backend.onrender.com',
+    'https://website-v-frontend-1.onrender.com'
   ]
 })
 
