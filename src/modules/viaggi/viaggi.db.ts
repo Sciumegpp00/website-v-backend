@@ -109,6 +109,24 @@ export let viaggi: Viaggio[] = [
     status: "visited",
     description: "Casa non casa (grezza obv)​🏛️​",
     date: "2025-07-01"
+  },
+  {
+    id: 3,
+    title: "Cuzco",
+    lat: -13.52,
+    lng: -71.97,
+    status: "planned",
+    description: "Perù arriviamo ✈️",
+    date: "2026-08-07"
+  },
+  {
+    id: 3,
+    title: "Lima",
+    lat: -12.046,
+    lng: -77.042,
+    status: "planned",
+    description: "Perù arriviamo ✈️",
+    date: "2026-08-07"
   }
 ]
 
