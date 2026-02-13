@@ -6,7 +6,7 @@ import { createViaggio, getViaggi } from './viaggi.controller'
 export async function viaggiRoutes(app: FastifyInstance) {
   app.get('/viaggi', viaggiController.getAll)
 //   app.post('/viaggi', viaggiController.create)
-  app.post('/', async (request, reply) => {
+  app.post('/viaggi', async (request, reply) => {
     // validazione con Zod
     const parsed = createViaggioSchema.parse(request.body)
     const nuovoViaggio = await createViaggio(parsed)
