@@ -67,18 +67,18 @@ export let viaggi: Viaggio[] = [
   },
   {
     id: 8,
-    title: "Cavaion Veronese",
-    lat: 45.5333333,
-    lng: 10.7666667,
+    title: "Verona",
+    lat: 45.4351,
+    lng: 10.9988,
     status: "visited",
     description: "Casa nostra e di Rio🐶​",
     date: "2025-06-25"
   },
   {
     id: 9,
-    title: "Meda",
-    lat: 45.6667,
-    lng: 9.1667,
+    title: "Monza",
+    lat: 45.5831,
+    lng: 9.2729,
     status: "visited",
     description: "Casa di Vladino😼​",
     date: "2025-04-24"
@@ -86,8 +86,8 @@ export let viaggi: Viaggio[] = [
   {
     id: 10,
     title: "Porto Venere",
-    lat: 45.6667,
-    lng: 9.1667,
+    lat: 44.06023,
+    lng: 9.83214,
     status: "visited",
     description: "La mia nuova scoperta: la liguria​🌊​",
     date: "2025-08-10"
@@ -95,8 +95,8 @@ export let viaggi: Viaggio[] = [
   {
     id: 11,
     title: "Palermo",
-    lat: 45.6667,
-    lng: 9.1667,
+    lat: 38.1156,
+    lng: 13.3613,
     status: "visited",
     description: "Palermo bedda",
     date: "2025-07-31"
@@ -104,14 +104,14 @@ export let viaggi: Viaggio[] = [
   {
     id: 12,
     title: "Agrigento",
-    lat: 45.6667,
-    lng: 9.1667,
+    lat: 37.3125,
+    lng: 13.575,
     status: "visited",
     description: "Casa non casa (grezza obv)​🏛️​",
     date: "2025-07-01"
   },
   {
-    id: 3,
+    id: 13,
     title: "Cuzco",
     lat: -13.52,
     lng: -71.97,
@@ -120,10 +120,19 @@ export let viaggi: Viaggio[] = [
     date: "2026-08-07"
   },
   {
-    id: 3,
+    id: 14,
     title: "Lima",
     lat: -12.046,
     lng: -77.042,
+    status: "planned",
+    description: "Perù arriviamo ✈️",
+    date: "2026-08-07"
+  },
+  {
+    id: 15,
+    title: "Venezia",
+    lat: 45.4349,
+    lng: 12.3385,
     status: "planned",
     description: "Perù arriviamo ✈️",
     date: "2026-08-07"
