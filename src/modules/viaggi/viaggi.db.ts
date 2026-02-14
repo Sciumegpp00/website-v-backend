@@ -133,8 +133,8 @@ export let viaggi: Viaggio[] = [
     title: "Venezia",
     lat: 45.4349,
     lng: 12.3385,
-    status: "planned",
-    description: "Perù arriviamo ✈️",
+    status: "visited",
+    description: "Venice in love💘",
     date: "2026-08-07"
   }
 ]
